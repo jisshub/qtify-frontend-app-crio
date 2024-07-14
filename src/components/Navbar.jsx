@@ -1,11 +1,27 @@
-import React from 'react'
+import React from 'react';
+import styles from './Navbar.module.css';
+import logo from '../assets/qtify-icon.svg';
+import searchIcon from '../assets/search-icon.svg';
 
 const Navbar = () => {
   return (
-    <div>
-      Navbar goes here
+    <div className={styles.navbar}>
+      <div className={styles.logoContainer}>
+        <img src={logo} alt="QTify Logo" className={styles.logo} />
+      </div>
+      <div className={styles.searchContainer}>
+        <input
+          type="text"
+          className={styles.searchInput}
+          placeholder="Search a song of your choice"
+        />
+        <button className={styles.searchButton}>
+          {/* <img src={searchIcon} alt="Search" /> */}
+        </button>
+      </div>
+      <button className={styles.feedbackButton}>Give Feedback</button>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;
