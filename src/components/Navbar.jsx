@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './Navbar.module.css';
 import logo from '../assets/qtify-icon.svg';
-import searchIcon from '../assets/search-icon.svg';
+import { IoSearch } from 'react-icons/io5';
 
 const Navbar = () => {
   return (
@@ -15,8 +15,8 @@ const Navbar = () => {
           className={styles.searchInput}
           placeholder="Search a song of your choice"
         />
-        <button className={styles.searchButton}>
-          {/* <img src={searchIcon} alt="Search" /> */}
+         <button className={styles.searchButton}>
+          <IoSearch className={styles.searchIcon} />
         </button>
       </div>
       <button className={styles.feedbackButton}>Give Feedback</button>
