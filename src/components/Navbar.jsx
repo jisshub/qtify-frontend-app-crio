@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './Navbar.module.css';
 import logo from '../assets/qtify-icon.svg';
 import { IoSearch } from 'react-icons/io5';
+import Button from './Button';
 
 const Navbar = () => {
   return (
@@ -19,7 +20,7 @@ const Navbar = () => {
           <IoSearch className={styles.searchIcon} />
         </button>
       </div>
-      <button className={styles.feedbackButton}>Give Feedback</button>
+      <Button text='Give Feedback' />
     </div>
   );
 };
