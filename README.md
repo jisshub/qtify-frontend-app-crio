@@ -35,3 +35,6 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 [Figm Design](https://www.figma.com/design/tuCV26ozM1R75Ze6ShZxKs/Qtify?node-id=1-2&t=i902RS022nmbAHff-0)
 
 
+## Deployed Link
+
+https://qtify-react-m8qd1bqmu-jisshubs-projects.vercel.app/
